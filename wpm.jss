@@ -46,26 +46,26 @@ function timeReset() {
 
         //if (breaktaken) {keypress = 0}
         breakTime = 10000;
-        // setTimeout(function (){
-        //     console.log("setTimeout reset, hope you're done typing", breakTime);
-        //     //console.timeEnd(typed)
-        //     breaktaken = true;
+        setTimeout(function (){
+            console.log("setTimeout reset, hope you're done typing", breakTime);
+            //console.timeEnd(typed)
+            breaktaken = true;
     
-        // }, breakTime)
+        }, breakTime)
 
-        // keypress++;
-        // let typedTime = Date.now() - startTime;
-        // console.log(keypress);
-        // //lol i got it now
-        // console.log(Date.now() - startTime);
-        // //clearTimeout();
-        // //timeReset(); i am so dumb lol this is so easy but i am forgetting basic algebra
-        // let x = Number;
-        // let differenceInTime = (typedTime + x)
-        // let sixtySeconds = 60000;
+        keypress++;
+        let typedTime = Date.now() - startTime;
+        console.log(keypress);
+        //lol i got it now
+        console.log(Date.now() - startTime);
+        //clearTimeout();
+        //timeReset(); i am so dumb lol this is so easy but i am forgetting basic algebra
+        let x = Number;
+        let differenceInTime = (typedTime + x)
+        let sixtySeconds = 60000;
 
-        // let cpm = sixtySeconds / keypress;
-        // console.log(cpm);
+        let cpm = sixtySeconds / keypress;
+        console.log(cpm);
    })
 
 
